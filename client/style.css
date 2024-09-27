@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav section {
+  width: 600px;
+}
+
+#search {
+  width: 300px;
+  border: none;
+  /* padding: 0 10px; */
+}
+
+.search-form {
+  background-color: white;
+  padding: 0 10px;
+  border: 1px solid;
+  border: black solid 1px;
+  border-radius: 20px;
+}
+
+.search-form button {
+  background-color: white;
+  border: none;
+  outline: none;
+}
+
+#search:focus {
+  border: none;
+  outline: none;
+}
+
+#upload {
+  background-color: black;
+  /* padding: 2px; */
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 3px;
+  color: white;
+}
+
+.col {
+  width: 300px;
+  /* height: 500px; */
+}
+
+.button-container {
+  /* border: 1px solid; */
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.button-container button,
+.button-container a {
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 28px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 300px;
+  height: 300px;
+}
+
+.cards_container {
+    min-height: 50vh;
+}
